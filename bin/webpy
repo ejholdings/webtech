@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 from Wappalyzer import Wappalyzer, WebPage
 import argparse
 import requests
@@ -9,7 +8,7 @@ warnings.filterwarnings("ignore")
 
 def find_version(a):
   if a == []:
-   return 'nil'
+   return 'null'
   else:
    return a[0]
 
