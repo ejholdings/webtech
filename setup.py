@@ -1,16 +1,15 @@
-from setuptools import *
+from setuptools import setup, find_packages
+
 if __name__ == "__main__":
-    f = open("requirements.txt", 'r')
-    dependencies = f.read().splitlines()
-    f.close()
+    with open("requirements.txt", 'r') as f:
+        dependencies = f.read().splitlines()
+
     setup(
-    scripts = ["bin/webpy"],
-    name='wappalyzer-cli',
-    version='0.1.0',
-    packages=find_packages(),
-    install_requires=[
-        dependencies
-    ],
-    
-    
+        scripts=["bin/webpy"],
+        name='webtech',
+        version='1',
+        packages=find_packages(),
+        install_requires=dependencies,
+    )
+
     )
