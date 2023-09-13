@@ -4,7 +4,7 @@ if __name__ == "__main__":
     dependencies = f.read().splitlines()
     f.close()
     setup(
-    scripts = ["src/wappy"],
+    scripts = ["bin/webpy"],
     name='wappalyzer-cli',
     version='0.1.0',
     packages=find_packages(),
