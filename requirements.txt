@@ -1,5 +1,0 @@
-httpretty
-colorama
-requests
-argparse
-python-Wappalyzer
