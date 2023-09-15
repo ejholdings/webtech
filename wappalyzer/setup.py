@@ -25,6 +25,7 @@ setup(
         "requests",
         "aiohttp",
         "cached_property",
+        "colorama",
     ],
     extras_require={
         # Pin pydoctor version until https://github.com/twisted/pydoctor/issues/513 is fixed
