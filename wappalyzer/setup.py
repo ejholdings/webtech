@@ -25,6 +25,7 @@ setup(
         "requests",
         "aiohttp",
         "cached_property",
+        "argparse",
         "colorama",
     ],
     extras_require={
