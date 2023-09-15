@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "wappalyzer"
+version = "0.2.4"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.rst"
+packages = [{include = "Wappalyzer"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+httpretty = "^1.1.4"
+aioresponses = "^0.7.4"
+requests = "^2.31.0"
+lxml = "^4.9.3"
+bs4 = "^0.0.1"
+cached-property = "^1.5.2"
+pytest-asyncio = "^0.21.1"
+
+[tool.poetry.dev-dependencies]
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
